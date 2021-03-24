@@ -1,0 +1,206 @@
+.root{
+    -fx-focus-color: transparent;
+}
+
+#btnFinancialCal,#btnMortgageCal
+{
+    -fx-background-color : #361D32;
+    -fx-background-radius :  30 0 0 30;
+    -fx-font-family: Oswald;
+    -fx-font-size: 14px;
+    -fx-font-weight: lighter;
+    -fx-text-fill: #AD8CAA;
+}
+
+#btnFinancialCal:hover,
+#btnMortgageCal:hover
+{
+    -fx-background-color : #543C52 ;
+    -fx-background-radius :  30 0 0 30;
+    -fx-text-fill: #F1E8E6;
+    /*-fx-font-weight: 650;*/
+}
+
+
+#btnFinancialCal:pressed,
+#btnMortgageCal:pressed
+{
+    -fx-background-color : #F55951 ;
+    -fx-background-radius :  30 0 0 30;
+}
+
+#btnAutoLoanCal
+{
+    -fx-background-color : #F1E8E6;
+    -fx-font-family: Oswald;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #301A2C;
+    -fx-translate-x: inherit;
+    -fx-border-width: 0 0 0 5;
+    -fx-background-radius :  0 0 0 0;
+    -fx-border-color: #F55951;
+}
+
+#btnMortInputsSubmit
+{
+    -fx-background-color : #AD8CAA;
+    -fx-background-radius :  30 0 0 30;
+
+    -fx-font-family: Oswald;
+    -fx-font-size: 14px;
+    -fx-font-weight: normal;
+    -fx-text-fill: #F1E8E6;
+
+}
+
+#btnMortInputsSubmit:hover
+{
+    -fx-background-color : #F55951;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+
+}
+
+#labMortH{
+    -fx-font-family: Oswald;
+    -fx-font-size: 14px;
+    -fx-font-weight: normal;
+    -fx-text-fill: #AD8CAA;
+
+}
+
+#labMortHResult{
+    -fx-font-family: Oswald;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #F1E8E6;
+}
+
+#mainResult{
+    -fx-font-family: Oswald;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFffff;
+}
+
+#labError{
+    -fx-font-family: Oswald;
+    -fx-font-size: 11px;
+    -fx-font-weight: lighter;
+    -fx-text-fill: #F55951;
+    -fx-padding: 0 30 0 0;
+}
+
+.text-field
+{
+    -fx-border-color: #543C52;
+    -fx-padding: 2px 2px 2px 2px;
+}
+
+.label1
+{
+    -fx-font-family: Oswald;
+    -fx-font-weight: lighter;
+    -fx-text-fill: #301A2C;
+    -fx-font-size: 12px;
+}
+
+.label2
+{
+    -fx-font-family: Oswald;
+    -fx-font-weight: bold;
+    -fx-text-fill: #F1E8E6;
+    -fx-font-size: 14px;
+}
+
+
+
+.tab-pane:focused > .tab-header-area > .headers-region > .tab:selected .focus-indicator {
+    -fx-border-width: 1;
+    -fx-border-color: #ffffff;
+}
+
+
+/*TablPane styling*/
+
+.tab-pane
+{
+    -fx-background-color: #ffff;
+}
+
+
+
+.tab{
+    -fx-background-color: #543C52;
+    -fx-background-insets: 0.0;
+    -fx-background-radius: 0.0;
+    -fx-padding:  2 20 4 20;
+
+
+}
+
+.tab-header-background{
+    -fx-background-color: linear-gradient(#543C52 99%,#FFffff 1%);
+}
+
+
+.tab-label{
+    -fx-text-fill: #AD8CAA;
+    -fx-font-size: 13px;
+}
+
+.tab:selected .tab-label
+{
+    -fx-text-fill: #543C52;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.tab:selected
+{
+    -fx-background-color:  #ffff;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-border-width: 6px 0 0 0;
+    -fx-border-color: #FFffff;
+}
+
+
+.tab:focused
+{
+    -fx-focus-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.tab-main{
+    -fx-pref-height : 60;
+    -fx-max-height : 60;
+}
+
+.settings-tab{
+    -fx-background-color: derive(#543C52, 10%);
+    -fx-border-color: transparent;
+    -fx-padding: 5px 20px 5px 20px;
+}
+
+.settings-tab:selected{
+    -fx-background-color: #FFffff;
+}
+
+.settings-tab:selected .tab-label{
+    -fx-text-fill: #543C52;
+}
+
+.settings-tab .tab-header-background{
+    -fx-background-color: #FFffff;
+}
+
+
+.about-button{
+    -fx-border-color: transparent;
+}
+
+
+
+

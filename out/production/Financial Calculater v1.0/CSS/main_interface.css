@@ -1,0 +1,35 @@
+.root{
+    -fx-focus-color: transparent;
+}
+
+#btnFinancialCal,
+#btnAutoLoanCal,
+#btnMortgageCal
+{
+    -fx-background-color : #361D32;
+    -fx-background-radius :  30 0 0 30;
+    -fx-font-family: Oswald;
+    -fx-font-size: 14px;
+    -fx-font-weight: lighter;
+    -fx-text-fill: #AD8CAA;
+}
+
+#btnFinancialCal:hover,
+#btnAutoLoanCal:hover,
+#btnMortgageCal:hover
+{
+    -fx-background-color : #543C52 ;
+    -fx-background-radius :  30 0 0 30;
+    -fx-text-fill: #F1E8E6;
+    /*-fx-font-weight: 650;*/
+}
+
+
+#btnFinancialCal:pressed,
+#btnAutoLoanCal:pressed,
+#btnMortgageCal:pressed
+{
+    -fx-background-color : #F55951 ;
+    -fx-background-radius :  30 0 0 30;
+}
+

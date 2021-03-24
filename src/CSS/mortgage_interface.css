@@ -1,0 +1,115 @@
+.root{
+    -fx-focus-color: transparent;
+}
+
+#btnFinancialCal,#btnAutoLoanCal
+{
+    -fx-background-color : #361D32;
+    -fx-background-radius :  30 0 0 30;
+    -fx-font-family: Oswald;
+    -fx-font-size: 14px;
+    -fx-font-weight: lighter;
+    -fx-text-fill: #AD8CAA;
+}
+
+#btnFinancialCal:hover,
+#btnAutoLoanCal:hover
+{
+    -fx-background-color : #543C52 ;
+    -fx-background-radius :  30 0 0 30;
+    -fx-text-fill: #F1E8E6;
+    /*-fx-font-weight: 650;*/
+}
+
+
+#btnFinancialCal:pressed,
+#btnAutoLoanCal:pressed
+{
+    -fx-background-color : #F55951 ;
+    -fx-background-radius :  30 0 0 30;
+}
+
+#btnMortgageCal
+{
+    -fx-background-color : #F1E8E6;
+    -fx-font-family: Oswald;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #301A2C;
+    -fx-translate-x: inherit;
+    -fx-border-width: 0 0 0 5;
+    -fx-background-radius :  0 0 0 0;
+    -fx-border-color: #F55951;
+}
+
+#btnMortInputsSubmit
+{
+    -fx-background-color : #AD8CAA;
+    -fx-background-radius :  30 0 0 30;
+
+    -fx-font-family: Oswald;
+    -fx-font-size: 14px;
+    -fx-font-weight: normal;
+    -fx-text-fill: #F1E8E6;
+
+}
+
+#btnMortInputsSubmit:hover
+{
+    -fx-background-color : #F55951;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+
+}
+
+#labMortH{
+    -fx-font-family: Oswald;
+    -fx-font-size: 14px;
+    -fx-font-weight: normal;
+    -fx-text-fill: #AD8CAA;
+
+}
+
+#labMortHResult{
+    -fx-font-family: Oswald;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #F1E8E6;
+}
+
+#mainResult{
+    -fx-font-family: Oswald;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFffff;
+}
+
+#labError{
+    -fx-font-family: Oswald;
+    -fx-font-size: 11px;
+    -fx-font-weight: lighter;
+    -fx-text-fill: #F55951;
+    -fx-padding: 0 30 0 0;
+}
+
+.text-field
+{
+    -fx-border-color: #543C52;
+    -fx-padding: 2px 2px 2px 2px;
+}
+
+.label1
+{
+    -fx-font-family: Oswald;
+    -fx-font-weight: lighter;
+    -fx-text-fill: #301A2C;
+    -fx-font-size: 12px;
+}
+
+.label2
+{
+    -fx-font-family: Oswald;
+    -fx-font-weight: bold;
+    -fx-text-fill: #F1E8E6;
+    -fx-font-size: 14px;
+}
