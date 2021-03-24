@@ -19,7 +19,7 @@ rate,Number of periods , Start principal(present value).
 ![financial](https://user-images.githubusercontent.com/76664856/112310341-7b02de00-8cca-11eb-9e50-d07d061bbef8.png)
 
 
-<h2>Project Flow<h2>
+<h2>Project Flow</h2>
  <ul>
    <li>Understanding the requirements and draw all the UML diagrams</li>
    <li>Design the interface using Adobe XD and implments it to JavaFx Scene Builder</li>
